@@ -6,18 +6,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     background: url(Green\ White\ Aesthetic\ Group\ Project\ Presentation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100% ;
+    width: 100%;
 }
 
 section {
-    background-size: cover;
     position: relative;
     width: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-position: center;
-
 }
 
 header {
@@ -34,14 +36,13 @@ header {
 header .logo {
     font-family: andika, sans-serif;
     position: relative;
-    color: #2f9778;
-    font-size: 30px;
+    color: #258649;
+    font-size: 45px;
     font-weight: 800;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
-
+ 
 header .navigation a {
     color: #000;
     background: #fff;
@@ -68,7 +69,7 @@ header .navigation a:hover {
 }
 
 .content .info h2 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 60px;
@@ -77,13 +78,13 @@ header .navigation a:hover {
 }
 
 .content .info h2 span {
-    color: #fff;
+    color: #258649;
     font-size: 50px;
     font-weight: 600;
 }
 
 .content .info p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -99,7 +100,7 @@ header .navigation a:hover {
 }
 
 .btn:hover {
-    background: #2d2f30;
+    background: #5fa487;
 }
 
 .media-icons {
@@ -136,6 +137,7 @@ label {
     
 }
 
+
 @media (max-width:960px) {
     header .navigation {
         display: none;
@@ -160,7 +162,7 @@ label {
     #check:checked ~ header .navigation {
         z-index: 2;
         position: fixed;
-        background: #fff;
+        background: #b4cfbf;
         top: 0;
         left: 0;
         bottom: 0;
@@ -172,7 +174,7 @@ label {
     }
 
     #check:checked ~ header .navigation a {
-        font-weight: 700;
+        font-weight: 900;
         margin-right: 0;
         margin-bottom: 50px;
         letter-spacing: 2px;
